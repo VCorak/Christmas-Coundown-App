@@ -89,8 +89,17 @@ h2 {
 
 @media screen and (max-width: 480px) {
   .timer__container {
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 0;
+    margin-right: 0;
     padding: 3em 1em;
+  }
+
+  @keyframes hat {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-60px);
+    }
   }
 }
