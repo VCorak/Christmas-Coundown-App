@@ -16,7 +16,7 @@ const App = () => {
 
     const startTimer = () => {
   
-    const countdownDate = new Date('December 25, 2020 00:00:00').getTime();
+    const countdownDate = new Date('January 1, 2021 00:00:00').getTime();
 
       const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -55,7 +55,7 @@ const App = () => {
     <Snow  />
     <section className="timer__container" >
       <section className="timer">
-         <h2>Countdown till Christmas</h2>
+         <h2>New Year's Eve Countdown</h2>
          <img className="hat" src={hat} alt="hat" />
         <div className="timer__box">
           <section>
